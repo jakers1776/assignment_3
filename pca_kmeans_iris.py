@@ -19,10 +19,10 @@ from sklearn.svm import SVC
 dataset = datasets.load_iris()
 
 #######
-#1st run of ICA, Iris
+#1st run of PCA, Iris
 #######
 from sklearn import decomposition
-pca = decomposition.FastICA(n_components=2)
+pca = decomposition.PCA(n_components=2)
 pca.fit(iris.data)
 X = pca.transform(iris.data)
 import pylab as pl
