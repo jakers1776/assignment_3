@@ -1,7 +1,5 @@
 # assignment_3
 
-# assignment_1
-
 tensorflow --> 1.12+
 numpy --> 1.11.0+
 matplotlib --> 2+
@@ -15,6 +13,3 @@ https://scikit-learn.org/stable/auto_examples/cluster/plot_kmeans_digits.html,ht
 
 Code Repo:
 https://github.com/jakers821/assignment_3/
-
-References:
-
